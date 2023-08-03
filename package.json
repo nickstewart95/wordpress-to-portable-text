@@ -1,0 +1,35 @@
+{
+	"name": "wordpress-to-portable-text",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./bin/index.js",
+	"bin": {
+		"w2pt": "./bin/index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nickstewart95/wordpress-to-portable-text.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nickstewart95/wordpress-to-portable-text/issues"
+	},
+	"homepage": "https://github.com/nickstewart95/wordpress-to-portable-text#readme",
+	"dependencies": {
+		"@sanity/block-tools": "^3.11.5",
+		"@sanity/schema": "^3.11.5",
+		"chalk": "^5.2.0",
+		"commander": "^10.0.1",
+		"he": "^1.2.0",
+		"import-modules": "^3.2.0",
+		"jsdom": "^22.1.0",
+		"ndjson": "^2.0.0",
+		"node-fetch": "^3.3.1",
+		"sanity": "^3.12.2"
+	},
+	"type": "module"
+}
