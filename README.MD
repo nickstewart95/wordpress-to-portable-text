@@ -14,7 +14,7 @@ The `run` command accepts two arugments, the website domain `--domain` and the p
 
 Ex.
 
-`w2pt run -d https://flavorman.com -p video`
+`w2pt run -d https://yourwebsite.com -p post`
 
 Make sure to pass the `http` or `https` on the URL.
 
